@@ -1,0 +1,12 @@
+{
+  "name": "bunker",
+  "version": "0.1.0",
+  "description": "bot",
+  "main": "main.js",
+  "repository": "https://github.com/BroWz69/bunker.git",
+  "author": "BroWz69 <Email.Bryan.Secondaire@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "discordjs/discord.js"
+  }
+}
