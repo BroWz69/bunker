@@ -5,8 +5,8 @@ module.exports = (client, message) => {
     .setDescription(message.guild.name)
     .setThumbnail(message.guild.iconURL())
     .addField("Membres", message.guild.memberCount, true)
-    .setFooter(message.guild.owner.user.tag.avatarURL())
+    .addField("Owner", message.guild.owner.user.tag, true)
+    .setImage(message.guild.owner.user.avatarURL())
     .setTimestamp();
   message.channel.send(embed);
 };
-
