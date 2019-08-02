@@ -1,23 +1,25 @@
 {
-  "name": "bunker",
+  "name": "projet",
   "version": "0.1.0",
-  "description": "bot",
+  "description": "bot bunker",
   "main": "main.js",
-  "repository": "https://github.com/BroWz69/bunker.git",
-  "author": "BroWz69 <Email.Bryan.Secondaire@gmail.com>",
+  "repository": "https://github.com/BroWz69/bunker",
+  "author": "Email.Bryan.Secondaire@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "discordjs/discord.js"
+    "discord.js": "discordjs/discord.js",
+    "mongoose": "^5.6.4",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-aqua": "^6.0.1"
+    "eslint": "^6.0.1",
+    "eslint-config-aqua": "^6.0.0"
   },
   "eslintConfig": {
     "extends": "aqua/node",
     "rules": {
       "linebreak-style": [
-        "error", 
+        "error",
         "windows"
       ],
       "quotes": [
@@ -26,10 +28,12 @@
       ],
       "indent": [
         "error",
-         2
+        2
       ],
-      "curly": "off"
-     
+      "curly": "off",
+      "no-trailing-spaces": "off",
+      "prefer-template": "off",
+      "no-eval": "off"
     }
   }
 }
